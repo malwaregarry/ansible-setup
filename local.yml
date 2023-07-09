@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+
+  tasks:
+    - include_tasks: tasks/zsh.yml
+    - include_tasks: tasks/dotfiles.yml
